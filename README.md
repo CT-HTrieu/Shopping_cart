@@ -1,98 +1,68 @@
-## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
+## Available Scripts
 
-  <img src="./doc/react-shopping-cart-min.gif">
-</p>
+In the project directory, you can run:
 
+### `yarn start`
 
-📌
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-*I'm migrating the app from SASS to Styled Components and removing Redux to make things more simpler for people who are just starting to learn React and use this project to study. If you'd like to contribute just checkout to `update-project-cleanup-and-modernize` branch.*
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `yarn test`
 
-## Basic Overview - [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This simple shopping cart prototype shows how React components and Redux can be used to build a
-friendly user experience with instant visual updates and scaleable code in ecommerce applications.
+### `yarn build`
 
-#### Features
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Add and remove products from the floating cart
-- Sort products by highest to lowest and lowest to highest price
-- Filter products by available sizes
-- Products persist in floating cart after page reloads
-- Unit tests, integration tests and e2e testing
-- Responsive design
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Getting started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Try playing with the code on CodeSandbox :)
+### `yarn eject`
 
-[![Edit app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/74rykw70qq)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Build/Run
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Requirements
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- Node.js
-- NPM
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```javascript
+## Learn More
 
-/* First, Install the needed packages */
-npm install
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-/* Then start both Node and React */
-npm start
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-/* To run the tests */
-npm run test
+### Code Splitting
 
-/* Running e2e tests */
-npm run wdio
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
-```
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## About tests
+### Making a Progressive Web App
 
-- Unit tests
-  - All components have at least a basic smoke test
-- Integration tests
-  - Fetch product and add to cart properly
-- e2e
-  - Webdriverio - Add and remove product from cart
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Copyright and license
+### Advanced Configuration
 
-The MIT License (MIT). Please see License File for more information.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-<br/>
-<br/>
+### Deployment
 
-<p align="center"><img src="http://www.jeffersonribeiro.com/assets/img/apple-icon-180x180.png" width="35" height="35"/></p>
-<p align="center">
-<sub>A little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
-</p>
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-## Contributors
+### `yarn build` fails to minify
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Syed-Saad-Qamar"><img src="https://avatars3.githubusercontent.com/u/38069997?v=4" width="100px;" alt="Syed Saad Qamar"/><br /><sub><b>Syed Saad Qamar</b></sub></a><br /><a href="https://github.com/jeffersonRibeiro/react-shopping-cart/commits?author=Syed-Saad-Qamar" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ksakiyama"><img src="https://avatars0.githubusercontent.com/u/1367783?v=4" width="100px;" alt="ksakiyama"/><br /><sub><b>ksakiyama</b></sub></a><br /><a href="https://github.com/jeffersonRibeiro/react-shopping-cart/commits?author=ksakiyama" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/rithikachowta08"><img src="https://avatars1.githubusercontent.com/u/26671726?v=4" width="100px;" alt="Rithika Chowta"/><br /><sub><b>Rithika Chowta</b></sub></a><br /><a href="https://github.com/jeffersonRibeiro/react-shopping-cart/commits?author=rithikachowta08" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/criesbeck"><img src="https://avatars3.githubusercontent.com/u/1717574?v=4" width="100px;" alt="Chris Riesbeck"/><br /><sub><b>Chris Riesbeck</b></sub></a><br /><a href="#ideas-criesbeck" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tutorial-criesbeck" title="Tutorials">✅</a> <a href="#content-criesbeck" title="Content">🖋</a> <a href="#review-criesbeck" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/jeffersonRibeiro/react-shopping-cart/issues?q=author%3Acriesbeck" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/hay-tran-ab6421165/"><img src="https://avatars0.githubusercontent.com/u/39950210?v=4" width="100px;" alt="Hay Tran"/><br /><sub><b>Hay Tran</b></sub></a><br /><a href="https://github.com/jeffersonRibeiro/react-shopping-cart/commits?author=HayTran94" title="Code">💻</a> <a href="#design-HayTran94" title="Design">🎨</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
